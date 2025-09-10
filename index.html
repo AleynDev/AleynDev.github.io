@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Portfolio - AleynDev</title>
+    <style>
+      /* Dracula Theme */
+      body {
+        margin: 0;
+        font-family: "Fira Code", monospace;
+        background-color: #282a36;
+        color: #f8f8f2;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding: 40px;
+      }
+
+      header {
+        display: flex;
+        align-items: center;
+        gap: 2rem;
+        margin-bottom: 40px;
+      }
+
+      .foto {
+        width: 200px; /* ajusta tamaño del círculo */
+        height: 200px;
+        border-radius: 50%;
+        border: 4px solid #ff79c6; /* borde rosa Dracula */
+        background-image: url("aleyn-coello.jpeg"); /* tu foto */
+        background-size: cover; /* rellena el círculo */
+        background-position: center; /* ajusta el encuadre */
+        background-repeat: no-repeat;
+      }
+
+      .info {
+        padding: 1rem;
+        border: 2px solid #50fa7b; /* verde Dracula */
+        border-radius: 12px;
+        background-color: #44475a;
+        color: #f8f8f2;
+        font-size: 14px;
+        max-width: 250px;
+      }
+
+      .info h2 {
+        margin-top: 0;
+        color: #bd93f9; /* violeta Dracula */
+      }
+
+      main {
+        width: 100%;
+        max-width: 800px;
+        border: 2px solid #8be9fd; /* azul Dracula */
+        border-radius: 12px;
+        padding: 20px;
+        background-color: #44475a;
+      }
+
+      section {
+        margin-bottom: 20px;
+      }
+
+      section h3 {
+        color: #ffb86c; /* amarillo/naranja Dracula */
+        border-bottom: 1px solid #6272a4;
+        padding-bottom: 4px;
+        margin-bottom: 10px;
+      }
+
+      ul {
+        list-style-type: "→ ";
+        padding-left: 20px;
+      }
+
+      a {
+        color: #8be9fd;
+        text-decoration: none;
+      }
+
+      a:hover {
+        text-decoration: underline;
+      }
+    </style>
+  </head>
+  <body>
+    <header>
+      <div
+        class="foto"
+        style="background-image: url('aleyn-coello.jpeg')"
+      ></div>
+      <div class="info">
+        <h2>Aleyn Coello</h2>
+        <p><strong>Backend Developer</strong></p>
+        <p>Gran Canaria, España</p>
+        <p>
+          <a href="https://github.com/AleynDev" target="_blank">GitHub</a> |
+          <a
+            href="https://www.linkedin.com/in/aleyn-coello-973418231/"
+            target="_blank"
+            >LinkedIn</a
+          >
+        </p>
+      </div>
+    </header>
+
+    <main>
+      <section>
+        <h3>Sobre mí</h3>
+        <p>
+          Desarrollador backend con experiencia en Java, Spring, Spring Boot,
+          microservicios y sistemas de alto rendimiento. Apasionado por la
+          arquitectura de software, la optimización de bases de datos y la
+          integración de servicios distribuidos.
+        </p>
+      </section>
+
+      <section>
+        <h3>Experiencia</h3>
+        <ul>
+          <li>
+            <strong>Backend Developer</strong> - Bitbox S.L. (Ikea Islas y
+            Caribe) (2023 - Actualidad)<br />
+            Desarrollo de microservicios, seguridad con Spring Security,
+            integración bancaria y mejora de plataformas APP/WEB.
+          </li>
+          <li>
+            <strong>Backend Developer</strong> - Proyecto académico (2022 -
+            2023)<br />
+            API REST para red social de recetas (Java, Spring Boot, PostgreSQL,
+            Redis, MongoDB, Firebase).
+          </li>
+        </ul>
+      </section>
+
+      <section>
+        <h3>Formación</h3>
+        <ul>
+          <li>
+            <strong>CFGS</strong> en Desarrollo de Aplicaciones Multiplataforma
+            (2021 - 2023)
+          </li>
+        </ul>
+      </section>
+
+      <section>
+        <h3>Cursos</h3>
+        <ul>
+          <li>Spring Boot 3 y Spring Framework 6 (Udemy)</li>
+          <li>Microservicios con Spring Boot (Udemy)</li>
+          <li>Mockito y Spring Boot Test (Udemy)</li>
+          <li>Docker (DevTalles)</li>
+          <li>Dart: De cero hasta los detalles (DevTalles)</li>
+          <li>Flutter: De cero a experto (DevTalles)</li>
+        </ul>
+      </section>
+
+      <section>
+        <h3>Skills</h3>
+        <ul>
+          <li>Lenguajes: Java, Dart</li>
+          <li>Frameworks: Spring, Spring Boot, Flutter</li>
+          <li>
+            Bases de Datos: PostgreSQL, Redis, MongoDB, Firestore, Realtime
+            Database
+          </li>
+          <li>Herramientas: Docker, Postman, Git, GitLab</li>
+          <li>Otros: Apache Kafka, RabbitMQ, Firebase</li>
+        </ul>
+      </section>
+    </main>
+  </body>
+</html>
